@@ -1,7 +1,5 @@
 # petroleum-ontology
 
-## Visão Geral
-
 Este repositório contém o trabalho final da disciplina CMP 196 - Engenharia de Ontologias, focada na construção de uma ontologia de domínio para objetos geológicos de reservatório do pré-sal. [cite_start]A ontologia modela entidades e processos chave, visando demonstrar técnicas de análise ontológica e modelagem conceitual em OWL, baseada na Basic Formal Ontology (BFO)[cite: 1].
 
 ## Conteúdo do Repositório
