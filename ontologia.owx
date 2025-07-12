@@ -1,0 +1,1956 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/i742609/ontologies/2025/6/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/i742609/ontologies/2025/6/untitled-ontology-10">
+    <Prefix name="" IRI="http://www.semanticweb.org/i742609/ontologies/2025/6/untitled-ontology-10/"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Import>http://purl.obolibrary.org/obo/bfo/2020/bfo-core.owl</Import>
+    <Import>https://www.inf.ufrgs.br/bdi/ontologies/geocore/releases/2024-04-06/geocore.owl</Import>
+    <Import>https://www.inf.ufrgs.br/bdi/ontologies/geospr/releases/2024-04-06/geospr-full.owl</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal>Your Name/Organization</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <Literal>2025-07-12</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <Literal xml:lang="en">Pre-Salt Geological Reservoir Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">An ontology describing geological entities and processes relevant to pre-salt reservoir characterization, based on BFO and GeoCore.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#abrupt_limit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#absolute_age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angular_unconfomity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#basin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bioturbation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#boundstone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#calcite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dimension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disconformity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dolomite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dolomitization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#facies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fascies_association"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#foramnifera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fossil_record"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#geological_site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gradual_limit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grainstone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#granulometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hydrothermal_fluid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#irregular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lenticular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lithological_limit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#micritic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mineral_composition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mudstone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nanofossils"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nonconformity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oncoid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ooidal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oolite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organic_matter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ostracods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#packstone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paraconformity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peloidal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#precipitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reef"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relative_age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rock_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sediment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sedimentary_structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shell_fragments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#siderite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stratigraphic_element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stratigraphic_sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stromatolite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#supersaturated_water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tabular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#texture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unconformity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wackestone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wedge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defined_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defines"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#expressed_in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_dimension_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_length_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_pressure_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_temperature_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_thickness_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_width_value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bioturbation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Campos_Basin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dolomite_Composition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dolomitization_Event"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dolomitized_Rock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Facies_A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Foraminifera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Halite_Rock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Layer_A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Layer_B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mudstone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ooidal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Precipitation_Event"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stratigraphic_Sequence"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#abrupt_limit"/>
+        <Class IRI="#lithological_limit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#absolute_age"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angular_unconfomity"/>
+        <Class IRI="#unconformity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#basin"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bioturbation"/>
+        <Class IRI="#sedimentary_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#boundstone"/>
+        <Class IRI="#texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calcite"/>
+        <Class IRI="#mineral_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dimension"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dimension"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_length_value"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dimension"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_thickness_value"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dimension"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_width_value"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disconformity"/>
+        <Class IRI="#unconformity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dolomite"/>
+        <Class IRI="#mineral_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dolomitization"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dolomitization"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_pressure_value"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dolomitization"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_temperature_value"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#facies"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#facies"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#defined_by"/>
+            <Class IRI="#granulometry"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#facies"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#defined_by"/>
+            <Class IRI="#mineral_composition"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#facies"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#defined_by"/>
+            <Class IRI="#sedimentary_structure"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#facies"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#defined_by"/>
+            <Class IRI="#texture"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#facies"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#defined_by"/>
+            <Class IRI="#fossil_record"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fascies_association"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#foramnifera"/>
+        <Class IRI="#fossil_record"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fossil_record"/>
+        <Class IRI="#rock_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#geological_site"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#geometry"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gradual_limit"/>
+        <Class IRI="#lithological_limit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grainstone"/>
+        <Class IRI="#texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#granulometry"/>
+        <Class IRI="#rock_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydrothermal_fluid"/>
+        <Class IRI="#water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydrothermal_fluid"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
+            <Class IRI="#dolomitization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#irregular"/>
+        <Class IRI="#geometry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#layer"/>
+        <Class IRI="#stratigraphic_element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lenticular"/>
+        <Class IRI="#geometry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lithological_limit"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#micritic"/>
+        <Class IRI="#granulometry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mineral_composition"/>
+        <Class IRI="#rock_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mudstone"/>
+        <Class IRI="#texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nanofossils"/>
+        <Class IRI="#fossil_record"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nonconformity"/>
+        <Class IRI="#unconformity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oncoid"/>
+        <Class IRI="#sedimentary_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ooidal"/>
+        <Class IRI="#granulometry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oolite"/>
+        <Class IRI="#sedimentary_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#organic_matter"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ostracods"/>
+        <Class IRI="#fossil_record"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#packstone"/>
+        <Class IRI="#texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paraconformity"/>
+        <Class IRI="#unconformity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peloidal"/>
+        <Class IRI="#granulometry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#precipitation"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pressure"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pressure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
+            <Class IRI="#dolomitization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pressure"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_pressure_value"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reef"/>
+        <Class IRI="#sedimentary_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_age"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rock_quality"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sediment"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sedimentary_structure"/>
+        <Class IRI="#rock_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shell_fragments"/>
+        <Class IRI="#fossil_record"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#siderite"/>
+        <Class IRI="#mineral_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#size"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stratigraphic_element"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stratigraphic_element"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000171"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stratigraphic_element"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOSPR_0000001"/>
+            <Class IRI="#stratigraphic_element"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stratigraphic_element"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOSPR_0000004"/>
+            <Class IRI="#stratigraphic_element"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stratigraphic_sequence"/>
+        <Class IRI="#stratigraphic_element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stratigraphic_sequence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000017"/>
+            <Class IRI="#layer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stromatolite"/>
+        <Class IRI="#sedimentary_structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supersaturated_water"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supersaturated_water"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
+            <Class IRI="#precipitation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tabular"/>
+        <Class IRI="#geometry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temperature"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temperature"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
+            <Class IRI="#dolomitization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temperature"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_temperature_value"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#texture"/>
+        <Class IRI="#rock_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unconformity"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wackestone"/>
+        <Class IRI="#texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wedge"/>
+        <Class IRI="#geometry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
+            <Class IRI="#dolomitization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000013"/>
+            <Class IRI="#dolomitization"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000008"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000013"/>
+            <Class IRI="#precipitation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#bioturbation"/>
+        <Class IRI="#oncoid"/>
+        <Class IRI="#oolite"/>
+        <Class IRI="#reef"/>
+        <Class IRI="#stromatolite"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#boundstone"/>
+        <Class IRI="#grainstone"/>
+        <Class IRI="#mudstone"/>
+        <Class IRI="#packstone"/>
+        <Class IRI="#wackestone"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#irregular"/>
+        <Class IRI="#lenticular"/>
+        <Class IRI="#tabular"/>
+        <Class IRI="#wedge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#micritic"/>
+        <Class IRI="#ooidal"/>
+        <Class IRI="#peloidal"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#bioturbation"/>
+        <NamedIndividual IRI="#Bioturbation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#basin"/>
+        <NamedIndividual IRI="#Campos_Basin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dolomite"/>
+        <NamedIndividual IRI="#Dolomite_Composition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#dolomitization"/>
+        <NamedIndividual IRI="#Dolomitization_Event"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000008"/>
+        <NamedIndividual IRI="#Dolomitized_Rock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facies"/>
+        <NamedIndividual IRI="#Facies_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#foramnifera"/>
+        <NamedIndividual IRI="#Foraminifera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000008"/>
+        <NamedIndividual IRI="#Halite_Rock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#layer"/>
+        <NamedIndividual IRI="#Layer_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#layer"/>
+        <NamedIndividual IRI="#Layer_B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wackestone"/>
+        <NamedIndividual IRI="#Mudstone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ooidal"/>
+        <NamedIndividual IRI="#Ooidal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#precipitation"/>
+        <NamedIndividual IRI="#Precipitation_Event"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#stratigraphic_element"/>
+        <NamedIndividual IRI="#Stratigraphic_Sequence"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defines"/>
+        <NamedIndividual IRI="#Bioturbation"/>
+        <NamedIndividual IRI="#Facies_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defines"/>
+        <NamedIndividual IRI="#Dolomite_Composition"/>
+        <NamedIndividual IRI="#Facies_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defines"/>
+        <NamedIndividual IRI="#Foraminifera"/>
+        <NamedIndividual IRI="#Facies_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000171"/>
+        <NamedIndividual IRI="#Layer_A"/>
+        <NamedIndividual IRI="#Campos_Basin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000017"/>
+        <NamedIndividual IRI="#Layer_A"/>
+        <NamedIndividual IRI="#Dolomitized_Rock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOSPR_0000004"/>
+        <NamedIndividual IRI="#Layer_A"/>
+        <NamedIndividual IRI="#Layer_B"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000171"/>
+        <NamedIndividual IRI="#Layer_B"/>
+        <NamedIndividual IRI="#Campos_Basin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOSPR_0000001"/>
+        <NamedIndividual IRI="#Layer_B"/>
+        <NamedIndividual IRI="#Layer_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defines"/>
+        <NamedIndividual IRI="#Mudstone"/>
+        <NamedIndividual IRI="#Facies_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defines"/>
+        <NamedIndividual IRI="#Ooidal"/>
+        <NamedIndividual IRI="#Facies_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000017"/>
+        <NamedIndividual IRI="#Stratigraphic_Sequence"/>
+        <NamedIndividual IRI="#Layer_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000017"/>
+        <NamedIndividual IRI="#Stratigraphic_Sequence"/>
+        <NamedIndividual IRI="#Layer_B"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#defined_by"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000058"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#defines"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000059"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#expressed_in"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000084"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#defined_by"/>
+        <ObjectProperty IRI="#defines"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#defined_by"/>
+        <Class IRI="#facies"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#defines"/>
+        <Class IRI="#rock_quality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#expressed_in"/>
+        <Class IRI="#facies"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defined_by"/>
+        <Class IRI="#fossil_record"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defined_by"/>
+        <Class IRI="#granulometry"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defined_by"/>
+        <Class IRI="#mineral_composition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defined_by"/>
+        <Class IRI="#sedimentary_structure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defined_by"/>
+        <Class IRI="#texture"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defines"/>
+        <Class IRI="#facies"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#expressed_in"/>
+        <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000008"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_dimension_value"/>
+        <DataProperty IRI="#has_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_length_value"/>
+        <DataProperty IRI="#has_dimension_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_pressure_value"/>
+        <DataProperty IRI="#has_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_temperature_value"/>
+        <DataProperty IRI="#has_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_thickness_value"/>
+        <DataProperty IRI="#has_dimension_value"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_value"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_width_value"/>
+        <DataProperty IRI="#has_dimension_value"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#abrupt_limit</IRI>
+        <Literal xml:lang="en">A lithological limit characterized by a sudden and sharp change in rock properties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#abrupt_limit</IRI>
+        <Literal xml:lang="en">Abrupt Limit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#abrupt_limit</IRI>
+        <Literal xml:lang="en">The contact between the basal conglomerate and the overlying shale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#absolute_age</IRI>
+        <Literal xml:lang="en">A geological age expressed in absolute time units, determined by methods such as radiometric dating.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#absolute_age</IRI>
+        <Literal xml:lang="en">Absolute Age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#absolute_age</IRI>
+        <Literal xml:lang="en">A volcanic ash layer dated to 125 million years.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#angular_unconfomity</IRI>
+        <Literal xml:lang="en">An unconformity characterized by an angular difference between the overlying and underlying rock layers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#angular_unconfomity</IRI>
+        <Literal xml:lang="en">Angular Unconformity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#angular_unconfomity</IRI>
+        <Literal xml:lang="en">The Grand Canyon&apos;s tilted Precambrian strata beneath horizontal Paleozoic strata.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#basin</IRI>
+        <Literal xml:lang="en">A site where sediments accumulate over time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#basin</IRI>
+        <Literal xml:lang="en">Basin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#basin</IRI>
+        <Literal xml:lang="en">The Santos Basin, a major petroleum basin in Brazil.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#bioturbation</IRI>
+        <Literal xml:lang="en">A sedimentary structure formed by the biological activity of organisms that disturb and mix sediments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bioturbation</IRI>
+        <Literal xml:lang="en">Bioturbation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#bioturbation</IRI>
+        <Literal xml:lang="en">Worm trails in ancient sandstone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#boundstone</IRI>
+        <Literal xml:lang="en">A rock texture where components are bound and fixed in place during deposition, typically by framework-building organisms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#boundstone</IRI>
+        <Literal xml:lang="en">Boundstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#boundstone</IRI>
+        <Literal xml:lang="en">The rigid framework of a fossil reef.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#calcite</IRI>
+        <Literal xml:lang="en">A mineral composition consisting predominantly of the calcium carbonate mineral, CaCO3.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#calcite</IRI>
+        <Literal xml:lang="en">Calcite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#calcite</IRI>
+        <Literal xml:lang="en">The primary mineral in a pure limestone sample.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#defined_by</IRI>
+        <Literal xml:lang="en">An object property indicating that a facies is characterized by a particular quality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#defined_by</IRI>
+        <Literal xml:lang="en">defined by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#defined_by</IRI>
+        <Literal xml:lang="en">A facies defined by its specific texture and mineral composition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#dimension</IRI>
+        <Literal xml:lang="en">A quality representing the measurable spatial extent of an entity, which can be length, width, or thickness.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dimension</IRI>
+        <Literal xml:lang="en">Dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#dimension</IRI>
+        <Literal xml:lang="en">The thickness of a reservoir rock layer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#disconformity</IRI>
+        <Literal xml:lang="en">An unconformity representing an erosional or non-depositional surface between layers of sedimentary rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#disconformity</IRI>
+        <Literal xml:lang="en">Disconformity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#disconformity</IRI>
+        <Literal xml:lang="en">An erosional surface within parallel shale beds.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#dolomite</IRI>
+        <Literal xml:lang="en">A mineral composition consisting predominantly of the calcium and magnesium carbonate mineral, CaMg(CO3)2.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dolomite</IRI>
+        <Literal xml:lang="en">Dolomite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#dolomite</IRI>
+        <Literal xml:lang="en">The crystalline mineral component of a dolomitized carbonate rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#dolomitization</IRI>
+        <Literal xml:lang="en">A geological diagenetic alteration process involving the replacement of carbonates (often calcite) by dolomite.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dolomitization</IRI>
+        <Literal xml:lang="en">Dolomitization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#dolomitization</IRI>
+        <Literal xml:lang="en">The process forming the pre-salt dolomitic reservoirs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#expressed_in</IRI>
+        <Literal xml:lang="en">An object property indicating that a facies manifests in an amount of rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#expressed_in</IRI>
+        <Literal xml:lang="en">expressed in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#expressed_in</IRI>
+        <Literal xml:lang="en">A specific facies expressed in the upper layers of a reservoir.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#facies</IRI>
+        <Literal xml:lang="en">A set of lithological, paleontological, compositional and structural characteristics of a rock amount that characterizes a rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#facies</IRI>
+        <Literal xml:lang="en">Facies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#facies</IRI>
+        <Literal xml:lang="en">A microbialite facies characterized by distinct internal structures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fascies_association</IRI>
+        <Literal xml:lang="en">A collection of two or more facies that occur together and are interpreted as representative of a specific depositional environment or set of interrelated environments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fascies_association</IRI>
+        <Literal xml:lang="en">Facies Association</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#fascies_association</IRI>
+        <Literal xml:lang="en">A grouping of shallow-marine oolitic and peloidal facies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#foramnifera</IRI>
+        <Literal xml:lang="en">A fossil record of single-celled marine or freshwater protist organisms with calcareous or agglutinated shells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#foramnifera</IRI>
+        <Literal xml:lang="en">Foramnifera</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#foramnifera</IRI>
+        <Literal xml:lang="en">Microscopic fossil shells found in deep-sea sediments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fossil_record</IRI>
+        <Literal xml:lang="en">A rock quality referring to the presence and type of preserved traces of life in rocks or sediments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fossil_record</IRI>
+        <Literal xml:lang="en">Fossil Record</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#fossil_record</IRI>
+        <Literal xml:lang="en">Dinosaur footprints preserved in ancient mudstone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#geological_site</IRI>
+        <Literal xml:lang="en">A spatially extended material entity representing a location of geological interest.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#geological_site</IRI>
+        <Literal xml:lang="en">Geological Site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#geological_site</IRI>
+        <Literal xml:lang="en">An exposed rock outcrop.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#geometry</IRI>
+        <Literal xml:lang="en">A quality of an object that describes its shape and spatial arrangement.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#geometry</IRI>
+        <Literal xml:lang="en">Geometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#geometry</IRI>
+        <Literal xml:lang="en">The tabular form of a widespread volcanic ash bed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#gradual_limit</IRI>
+        <Literal xml:lang="en">A lithological limit characterized by a progressive transition in rock properties over a thickness.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gradual_limit</IRI>
+        <Literal xml:lang="en">Gradual Limit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#gradual_limit</IRI>
+        <Literal xml:lang="en">A transition from sand to silt over a 10-meter interval.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#grainstone</IRI>
+        <Literal xml:lang="en">A carbonate rock texture composed of more than 10% grains and no micritic mud, where the grains are in mutual contact.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#grainstone</IRI>
+        <Literal xml:lang="en">Grainstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#grainstone</IRI>
+        <Literal xml:lang="en">A highly porous carbonate rock composed entirely of ooids.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#granulometry</IRI>
+        <Literal xml:lang="en">A rock quality referring to the size and distribution of grains or particles that compose it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#granulometry</IRI>
+        <Literal xml:lang="en">Granulometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#granulometry</IRI>
+        <Literal xml:lang="en">The fine grain size of a lacustrine shale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_dimension_value</IRI>
+        <Literal xml:lang="en">A data property indicating the numerical value of a spatial dimension (length, thickness, width).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_dimension_value</IRI>
+        <Literal xml:lang="en">has dimension value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#has_dimension_value</IRI>
+        <Literal xml:lang="en">A layer with a thickness of 50 meters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_length_value</IRI>
+        <Literal xml:lang="en">A data property indicating the specific numerical value of a dimension&apos;s length.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_length_value</IRI>
+        <Literal xml:lang="en">has length value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#has_length_value</IRI>
+        <Literal xml:lang="en">A fault with a length of 10 kilometers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_pressure_value</IRI>
+        <Literal xml:lang="en">A data property indicating the numerical value of pressure associated with a process or condition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_pressure_value</IRI>
+        <Literal xml:lang="en">has pressure value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#has_pressure_value</IRI>
+        <Literal xml:lang="en">A fluid with a pressure of 70 MPa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_temperature_value</IRI>
+        <Literal xml:lang="en">A data property indicating the numerical value of temperature associated with a process or condition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_temperature_value</IRI>
+        <Literal xml:lang="en">has temperature value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#has_temperature_value</IRI>
+        <Literal xml:lang="en">A hydrothermal vent with a temperature of 300°C.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_thickness_value</IRI>
+        <Literal xml:lang="en">A data property indicating the specific numerical value of a dimension&apos;s thickness.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_thickness_value</IRI>
+        <Literal xml:lang="en">has thickness value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#has_thickness_value</IRI>
+        <Literal xml:lang="en">A cap rock with a thickness of 500 meters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_value</IRI>
+        <Literal xml:lang="en">A generic data property linking a quality to a numerical or textual value.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_value</IRI>
+        <Literal xml:lang="en">has value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#has_value</IRI>
+        <Literal xml:lang="en">A rock quality with the value &quot;good permeability&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_width_value</IRI>
+        <Literal xml:lang="en">A data property indicating the specific numerical value of a dimension&apos;s width.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#has_width_value</IRI>
+        <Literal xml:lang="en">has width value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#has_width_value</IRI>
+        <Literal xml:lang="en">A channel with a width of 500 meters.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hydrothermal_fluid</IRI>
+        <Literal xml:lang="en">A type of heated water acting as an agent in geological processes, such as dolomitization, by transporting and depositing minerals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hydrothermal_fluid</IRI>
+        <Literal xml:lang="en">Hydrothermal Fluid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#hydrothermal_fluid</IRI>
+        <Literal xml:lang="en">Hot, mineral-rich water flowing through a fault system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#irregular</IRI>
+        <Literal xml:lang="en">A geometry characterized by the absence of a defined pattern or form.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#irregular</IRI>
+        <Literal xml:lang="en">Irregular Geometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#irregular</IRI>
+        <Literal xml:lang="en">The complex, cavernous shapes within a karst system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#layer</IRI>
+        <Literal xml:lang="en">An individual, tabular stratigraphic element, distinguishable from others by its lithological, paleontological, or structural characteristics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#layer</IRI>
+        <Literal xml:lang="en">Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#layer</IRI>
+        <Literal xml:lang="en">A specific bedding unit within a sedimentary sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#lenticular</IRI>
+        <Literal xml:lang="en">A geometry characterized by a lens-like shape, thinning towards the ends.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lenticular</IRI>
+        <Literal xml:lang="en">Lenticular Geometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#lenticular</IRI>
+        <Literal xml:lang="en">A lens-shaped sand body within a larger shale formation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#lithological_limit</IRI>
+        <Literal xml:lang="en">A geological boundary marking a change in the lithology or composition of a rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#lithological_limit</IRI>
+        <Literal xml:lang="en">Lithological Limit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#lithological_limit</IRI>
+        <Literal xml:lang="en">The sharp boundary between sandstone and a shale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#micritic</IRI>
+        <Literal xml:lang="en">A carbonate rock granulometry characterized by very fine-grained particles (clay to silt size).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#micritic</IRI>
+        <Literal xml:lang="en">Micritic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#micritic</IRI>
+        <Literal xml:lang="en">The very fine-grained texture of a carbonate mudstone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#mineral_composition</IRI>
+        <Literal xml:lang="en">A rock quality describing the compositional name of an amount of rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mineral_composition</IRI>
+        <Literal xml:lang="en">Mineral Composition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#mineral_composition</IRI>
+        <Literal xml:lang="en">A granite primarily composed of quartz, feldspar, and mica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#mudstone</IRI>
+        <Literal xml:lang="en">A carbonate rock texture composed of more than 90% micritic mud, with less than 10% grains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mudstone</IRI>
+        <Literal xml:lang="en">Mudstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#mudstone</IRI>
+        <Literal xml:lang="en">A thinly laminated, dark gray rock lacking visible grains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#nanofossils</IRI>
+        <Literal xml:lang="en">A fossil record of microscopic organisms, such as coccoliths, visible only under high magnification.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nanofossils</IRI>
+        <Literal xml:lang="en">Nanofossils</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#nanofossils</IRI>
+        <Literal xml:lang="en">Coccolith remains in a chalk sample.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#nonconformity</IRI>
+        <Literal xml:lang="en">An unconformity separating younger sedimentary rocks from older igneous or metamorphic rocks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nonconformity</IRI>
+        <Literal xml:lang="en">Nonconformity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#nonconformity</IRI>
+        <Literal xml:lang="en">Sedimentary rock directly overlying ancient granite.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#oncoid</IRI>
+        <Literal xml:lang="en">A spherical or ellipsoidal sedimentary structure formed by concentric layers of carbonate precipitated by microbial activity around a nucleus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oncoid</IRI>
+        <Literal xml:lang="en">Oncoid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#oncoid</IRI>
+        <Literal xml:lang="en">A potato-shaped carbonate grain with concentric growth rings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ooidal</IRI>
+        <Literal xml:lang="en">A rock granulometry characterized by the presence of ooids, spherical grains with a concentric structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ooidal</IRI>
+        <Literal xml:lang="en">Ooidal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#ooidal</IRI>
+        <Literal xml:lang="en">A sandstone primarily made of small, spherical ooids.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#oolite</IRI>
+        <Literal xml:lang="en">A sedimentary structure formed by the accumulation of ooids.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oolite</IRI>
+        <Literal xml:lang="en">Oolite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#oolite</IRI>
+        <Literal xml:lang="en">A large bed composed entirely of ooids.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#organic_matter</IRI>
+        <Literal xml:lang="en">A substance consisting of material derived from living organisms or their remains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#organic_matter</IRI>
+        <Literal xml:lang="en">Organic Matter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#organic_matter</IRI>
+        <Literal xml:lang="en">Kerogen within a hydrocarbon source rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ostracods</IRI>
+        <Literal xml:lang="en">A fossil record of small, bivalved aquatic crustaceans.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ostracods</IRI>
+        <Literal xml:lang="en">Ostracods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#ostracods</IRI>
+        <Literal xml:lang="en">Tiny, bivalve microfossils in a freshwater lake deposit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#packstone</IRI>
+        <Literal xml:lang="en">A carbonate rock texture where grains are in contact, but a micritic mud matrix fills the spaces between them.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#packstone</IRI>
+        <Literal xml:lang="en">Packstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#packstone</IRI>
+        <Literal xml:lang="en">A rock with abundant fossil fragments in a muddy matrix.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#paraconformity</IRI>
+        <Literal xml:lang="en">An unconformity where there is no angular or erosional evidence, but a temporal discontinuity is inferred from paleontological or chronostratigraphic evidence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#paraconformity</IRI>
+        <Literal xml:lang="en">Paraconformity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#paraconformity</IRI>
+        <Literal xml:lang="en">A subtly missing stratigraphic section identified by paleontological zones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#peloidal</IRI>
+        <Literal xml:lang="en">A rock granulometry characterized by the presence of peloids, small, rounded grains of carbonate mud.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#peloidal</IRI>
+        <Literal xml:lang="en">Peloidal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#peloidal</IRI>
+        <Literal xml:lang="en">A limestone composed of small, rounded carbonate mud aggregates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#precipitation</IRI>
+        <Literal xml:lang="en">A geological process where a supersaturated solution deposits amount.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#precipitation</IRI>
+        <Literal xml:lang="en">Precipitation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#precipitation</IRI>
+        <Literal xml:lang="en">The formation of calcite cement in sandstone pore spaces.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#pressure</IRI>
+        <Literal xml:lang="en">A quality representing the force exerted per unit area on an entity, important in geological processes like dolomitization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pressure</IRI>
+        <Literal xml:lang="en">Pressure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#pressure</IRI>
+        <Literal xml:lang="en">The high pressure exerted on deep-seated reservoir rocks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#reef</IRI>
+        <Literal xml:lang="en">A carbonate sedimentary structure, typically massive and with a skeletal framework, built by biological organisms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#reef</IRI>
+        <Literal xml:lang="en">Reef</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#reef</IRI>
+        <Literal xml:lang="en">An ancient microbial buildup forming a geological structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#relative_age</IRI>
+        <Literal xml:lang="en">A geological age describing the sequence of geological events or units without assigning absolute numerical values.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#relative_age</IRI>
+        <Literal xml:lang="en">Relative Age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#relative_age</IRI>
+        <Literal xml:lang="en">The older age of a shale layer beneath a sandstone layer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#rock_quality</IRI>
+        <Literal xml:lang="en">A quality describing an intrinsic characteristic of a rock, such as its composition, texture, or structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#rock_quality</IRI>
+        <Literal xml:lang="en">Rock Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#rock_quality</IRI>
+        <Literal xml:lang="en">The porosity and permeability of a reservoir rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sediment</IRI>
+        <Literal xml:lang="en">A solid material transported and deposited by natural agents such as wind, water, or ice, which can consolidate into rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sediment</IRI>
+        <Literal xml:lang="en">Sediment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#sediment</IRI>
+        <Literal xml:lang="en">Loose sand grains on a modern beach.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sedimentary_structure</IRI>
+        <Literal xml:lang="en">A rock quality referring to patterns or arrangements formed in sedimentary rocks during or after deposition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sedimentary_structure</IRI>
+        <Literal xml:lang="en">Sedimentary Structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#sedimentary_structure</IRI>
+        <Literal xml:lang="en">Cross-bedding in a fluvial sandstone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#shell_fragments</IRI>
+        <Literal xml:lang="en">A fossil record composed of broken pieces of marine organism shells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#shell_fragments</IRI>
+        <Literal xml:lang="en">Shell Fragments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#shell_fragments</IRI>
+        <Literal xml:lang="en">Crushed mollusk shells embedded in a limestone bed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#siderite</IRI>
+        <Literal xml:lang="en">A mineral composition consisting predominantly of the iron carbonate mineral, FeCO3.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#siderite</IRI>
+        <Literal xml:lang="en">Siderite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#siderite</IRI>
+        <Literal xml:lang="en">Iron carbonate crystals in a black shale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#size</IRI>
+        <Literal xml:lang="en">A quality representing the magnitude or extent of an object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#size</IRI>
+        <Literal xml:lang="en">Size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#size</IRI>
+        <Literal xml:lang="en">The diameter of a sandstone grain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#stratigraphic_element</IRI>
+        <Literal xml:lang="en">A geological entity that is part of a stratigraphic sequence, such as a layer or formation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stratigraphic_element</IRI>
+        <Literal xml:lang="en">Stratigraphic Element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#stratigraphic_element</IRI>
+        <Literal xml:lang="en">A specific formation in a well log.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#stratigraphic_sequence</IRI>
+        <Literal xml:lang="en">A stratigraphic element representing a succession of rock layers continuously deposited over time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stratigraphic_sequence</IRI>
+        <Literal xml:lang="en">Stratigraphic Sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#stratigraphic_sequence</IRI>
+        <Literal xml:lang="en">The entire pre-salt succession in the Santos Basin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#stromatolite</IRI>
+        <Literal xml:lang="en">A laminar, dome-shaped or columnar sedimentary structure formed by carbonate precipitation due to the activity of microbial mats.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#stromatolite</IRI>
+        <Literal xml:lang="en">Stromatolite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#stromatolite</IRI>
+        <Literal xml:lang="en">Layered, columnar structures in ancient shallow-water carbonates.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#supersaturated_water</IRI>
+        <Literal xml:lang="en">A type of water containing a higher concentration of dissolved substances than would normally be possible at equilibrium.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#supersaturated_water</IRI>
+        <Literal xml:lang="en">Supersaturated Water</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#supersaturated_water</IRI>
+        <Literal xml:lang="en">Fluid containing excess dissolved salts before crystallization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tabular</IRI>
+        <Literal xml:lang="en">A geometry characterized by a flat and extended shape, with relatively uniform thickness.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tabular</IRI>
+        <Literal xml:lang="en">Tabular Geometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#tabular</IRI>
+        <Literal xml:lang="en">A flat, sheet-like sandstone body extending for kilometers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#temperature</IRI>
+        <Literal xml:lang="en">A quality representing the degree of heat or cold of an entity, influencing geological processes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#temperature</IRI>
+        <Literal xml:lang="en">Temperature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#temperature</IRI>
+        <Literal xml:lang="en">The high temperature of formation waters in a deep reservoir.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#texture</IRI>
+        <Literal xml:lang="en">A rock quality referring to the size, shape, arrangement, and interrelationships of the grains or crystals that compose it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#texture</IRI>
+        <Literal xml:lang="en">Texture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#texture</IRI>
+        <Literal xml:lang="en">The crystalline interlocking grains of a dolomite rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#unconformity</IRI>
+        <Literal xml:lang="en">A stratigraphic discontinuity representing a gap in the geological record, indicating a period of erosion or non-deposition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#unconformity</IRI>
+        <Literal xml:lang="en">Unconformity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#unconformity</IRI>
+        <Literal xml:lang="en">A regional erosional surface marking a major geological time gap.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#wackestone</IRI>
+        <Literal xml:lang="en">A carbonate rock texture where grains float in a micritic mud matrix, with more than 10% grains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wackestone</IRI>
+        <Literal xml:lang="en">Wackestone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#wackestone</IRI>
+        <Literal xml:lang="en">A carbonate rock with isolated grains floating in a mud matrix.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#water</IRI>
+        <Literal xml:lang="en">Inorganic substance important in geological processes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#water</IRI>
+        <Literal xml:lang="en">Water</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#water</IRI>
+        <Literal xml:lang="en">Pore fluid within a reservoir rock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#wedge</IRI>
+        <Literal xml:lang="en">A geometry characterized by a shape that thins in one direction, resembling a wedge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#wedge</IRI>
+        <Literal xml:lang="en">Wedge Geometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+        <IRI>#wedge</IRI>
+        <Literal xml:lang="en">A sedimentary unit thickening towards the basin&apos;s center.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
