@@ -15,6 +15,7 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
     <Import>http://purl.obolibrary.org/obo/bfo/2020/bfo-core.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/ro/releases/2025-06-24/core.owl</Import>
     <Import>https://www.inf.ufrgs.br/bdi/ontologies/geocore/releases/2024-04-06/geocore.owl</Import>
     <Import>https://www.inf.ufrgs.br/bdi/ontologies/geospr/releases/2024-04-06/geospr-full.owl</Import>
     <Annotation>
@@ -77,9 +78,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#fossil_record"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#geological_site"/>
     </Declaration>
     <Declaration>
         <Class IRI="#geometry"/>
@@ -320,7 +318,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#basin"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#bioturbation"/>
@@ -437,10 +435,6 @@
         <Class IRI="#rock_quality"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#geological_site"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#geometry"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </SubClassOf>
@@ -474,6 +468,27 @@
     <SubClassOf>
         <Class IRI="#layer"/>
         <Class IRI="#stratigraphic_element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#layer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#stratigraphic_sequence"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#layer"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000194"/>
+            <Class IRI="#dimension"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#layer"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000194"/>
+            <Class IRI="#geometry"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#lenticular"/>
@@ -547,7 +562,7 @@
         <Class IRI="#pressure"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
-            <Class IRI="#dolomitization"/>
+            <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -597,33 +612,12 @@
         <Class IRI="#stratigraphic_element"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000171"/>
-            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000029"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000028"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#stratigraphic_element"/>
-        <ObjectMinCardinality cardinality="0">
-            <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOSPR_0000001"/>
-            <Class IRI="#stratigraphic_element"/>
-        </ObjectMinCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#stratigraphic_element"/>
-        <ObjectMinCardinality cardinality="0">
-            <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOSPR_0000004"/>
-            <Class IRI="#stratigraphic_element"/>
-        </ObjectMinCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#stratigraphic_sequence"/>
         <Class IRI="#stratigraphic_element"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#stratigraphic_sequence"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000017"/>
-            <Class IRI="#layer"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#stromatolite"/>
@@ -652,7 +646,14 @@
         <Class IRI="#temperature"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000056"/>
-            <Class IRI="#dolomitization"/>
+            <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000002"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temperature"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000195"/>
+            <Class IRI="https://www.inf.ufrgs.br/bdi/ontologies/GEOCORE_0000006"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1182,21 +1183,6 @@
         <AnnotationProperty abbreviatedIRI="skos:example"/>
         <IRI>#fossil_record</IRI>
         <Literal xml:lang="en">Dinosaur footprints preserved in ancient mudstone.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#geological_site</IRI>
-        <Literal xml:lang="en">A spatially extended material entity representing a location of geological interest.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#geological_site</IRI>
-        <Literal xml:lang="en">Geological Site</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="skos:example"/>
-        <IRI>#geological_site</IRI>
-        <Literal xml:lang="en">An exposed rock outcrop.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
